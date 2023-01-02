@@ -1,0 +1,118 @@
+
+body {
+  font-size: 14px;
+  margin: 0;
+  font-family:'Courier New', Courier, monospace;
+}
+
+div {
+  position: relative;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.header:not(:last-child) {
+  margin-bottom: .5em;
+}
+
+.header .sub.header {
+  font-weight: 400;
+  font-size: .9em;
+}
+
+.small {
+  font-size: .9em;
+}
+
+.large {
+  font-size: 1.5em;
+}
+
+.big {
+  font-size: 1.7em;
+}
+
+.huge {
+  font-size: 2em;
+}
+
+.form {
+  padding: 1em;
+}
+
+.form .field {
+  display: flex;
+}
+
+.form .field + .field {
+  margin-top: .7em;
+}
+
+input, a {
+  text-decoration: none;
+  outline: none;
+}
+
+.form .field > input {
+  padding: .8em;
+  border: 1px solid rgba(35, 35, 35, .2);
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.button {
+  border: 1px solid rgba(35, 35, 35, .2);
+  border-radius: 7px;
+  color: white;
+  background-color: #2185d0;
+  font-size: 1rem;
+  padding: .5rem 1.5rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1678c2;
+}
+
+.button:active {
+  background-color: #1a69a4;
+}
+
+[class*="right aligned"] {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+[class*="center aligned"] {
+  text-align: center;
+  justify-content: center;
+}
+
+.login.form {
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  border: 1px solid #a9d5de;
+  border-radius: 7px;
+  padding: .8em;
+  background-color: #f8ffff;
+  color: #276f86;
+}
+
+.fluid {
+  width: 100%;
+}
