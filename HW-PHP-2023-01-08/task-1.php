@@ -1,10 +1,6 @@
 <?php
 
-require_once 'User.php';
-require_once 'Employee.php';
-require_once 'Student.php';
-require_once 'Programmer.php';
-require_once 'Driver.php';
+require_once 'autoload.php';
 
 $employee = new Employee;
 $employee -> setSalary(2000);
